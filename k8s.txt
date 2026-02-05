@@ -1,4 +1,4 @@
-Kubernetes - orchestration
+Kubernetes - container orchestration
 
 === RECIPE ===
 
