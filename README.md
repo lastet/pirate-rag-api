@@ -31,7 +31,6 @@ User → FastAPI `/query` → ChromaDB semantic search → context retrieval →
 * **Retrieval layer**: ChromaDB (vector embeddings)
 * **Generation layer**: Ollama with TinyLlama
 
-The API also exposes an `/add` endpoint to **dynamically update the knowledge base** without restarting the service.
 
 ---
 
@@ -70,9 +69,13 @@ This approach ensures that degraded knowledge updates are caught **before deploy
 
 ## 🚀 Running the Project Locally
 
+mock mode: ./run_server.sh
+real LLM: ./run_server_real.sh
+tests: ./run_tests.sh
+
 ### 1. Prerequisites
 
-* Python 3.11+
+* Python 3.12+
 * Ollama installed and running
 * Docker (optional, for containerized run)
 
@@ -185,7 +188,7 @@ Key takeaways:
 
 ## 🧭 Next Steps
 
-* Add UI for live demo (Streamlit / React)
+* Add UI for live demo 
 * Add more pirate documentation
 * Expand semantic test coverage 
 * Add monitoring & observability
