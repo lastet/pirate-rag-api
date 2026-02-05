@@ -1,6 +1,6 @@
 # 🏴‍☠️ pirate-rag-api
 
-A production-oriented **Retrieval-Augmented Generation (RAG) API** built with FastAPI, ChromaDB, and a local LLM via Ollama.
+A production-oriented **Retrieval-Augmented Generation (RAG) API** built with FastAPI, ChromaDB, and a local LLM via Ollama & tinyllama.
 
 This project demonstrates how to design, test, containerize, and continuously validate an AI-powered API **without relying on non-deterministic LLM output in CI**.
 
